@@ -14,10 +14,10 @@ class CreateLoginDatasTable extends Migration
     public function up()
     {
         Schema::create('login-datas', function (Blueprint $table) {
-            $table->string('name_user');
-            $table->timestamps('login');
-            $table->timestamps('logout');
             $table->date('date');
+            $table->time('hour');
+            $table->integer('event');
+            $table->string('name_user');
             $table->timestamps();
         });
     }
