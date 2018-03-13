@@ -14,13 +14,11 @@ class CreateLoginDatasTable extends Migration
     public function up()
     {
         Schema::create('login-datas', function (Blueprint $table) {
-            $table->integer('id')->unsigned();
             $table->string('name_user');
             $table->timestamps('login');
             $table->timestamps('logout');
             $table->date('date');
             $table->timestamps();
-            $table->foreign('id')->references('id')->on('list_employees')->onDelete('cascade');
         });
     }
 
