@@ -13,11 +13,13 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 2',
+    'title' => 'Controle de Login',
 
     'title_prefix' => '',
 
-    'title_postfix' => '',
+    'title_postfix' => ' - CEAD',
+
+    'title_url'  => 'home',
 
     /*
     |--------------------------------------------------------------------------
@@ -30,9 +32,9 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
+    'logo' => 'Controle de Login',
 
-    'logo_mini' => '<b>A</b>LT',
+    'logo_mini' => '<b>C</b>L',
 
     /*
     |--------------------------------------------------------------------------
@@ -58,7 +60,7 @@ return [
     |
     */
 
-    'layout' => null,
+    'layout' => fixed,
 
     /*
     |--------------------------------------------------------------------------
@@ -108,31 +110,38 @@ return [
     */
 
     'menu' => [
-        'MAIN NAVIGATION',
+        'RELATÓRIOS',
         [
             'text' => 'Blog',
             'url'  => 'admin/blog',
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'Pages',
-            'url'         => 'admin/pages',
-            'icon'        => 'file',
-            'label'       => 4,
+            'text'        => 'Busca',
+            'url'         => 'admin',
+            'icon'        => 'search',
+            #'label'       => 4,
             'label_color' => 'success',
         ],
-        'ACCOUNT SETTINGS',
+        'CONFIGURAÇÕES DE CONTA',
         [
-            'text' => 'Profile',
+            'text' => 'Perfil',
             'url'  => 'admin/settings',
             'icon' => 'user',
+
         ],
-        [
-            'text' => 'Change Password',
+        /*[
+            'text' => 'Alterar Senha',
             'url'  => 'admin/settings',
             'icon' => 'lock',
-        ],
+        ],*/
         [
+            'text' => 'Usuários',
+            'url'  => '',
+            'icon' => 'user',
+          #  'can'  => 'manage-blog',
+        ],
+        /*[
             'text'    => 'Multilevel',
             'icon'    => 'share',
             'submenu' => [
@@ -182,7 +191,7 @@ return [
         [
             'text'       => 'Information',
             'icon_color' => 'aqua',
-        ],
+        ],*/
     ],
 
     /*
