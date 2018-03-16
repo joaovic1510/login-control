@@ -1,11 +1,12 @@
 @extends('adminlte::page')
 
-@section('title', 'AdminLTE')
+@section('title', 'Controle de Login')
 
 @section('content_header')
-    <h1>Dashboard</h1>
+    <h1>Bem vindo!</h1>
 @stop
 
 @section('content')
-    <p>You are logged in!</p>
+    <p>Este é o Sistema de Controle de Login dos Usuários do Centro de Educação à Distância Unimontes - CEAD</p>
+    <p>Selecione a opção desejada no menu ao lado</p>
 @stop

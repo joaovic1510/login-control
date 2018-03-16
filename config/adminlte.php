@@ -34,7 +34,7 @@ return [
 
     'logo' => 'Controle de Login',
 
-    'logo_mini' => '<b>C</b>L',
+    'logo_mini' => '<b>C</b>L 1.0',
 
     /*
     |--------------------------------------------------------------------------
@@ -60,7 +60,7 @@ return [
     |
     */
 
-    'layout' => fixed,
+    'layout' => null,
 
     /*
     |--------------------------------------------------------------------------
@@ -118,7 +118,7 @@ return [
         ],
         [
             'text'        => 'Busca',
-            'url'         => 'admin',
+            'url'         => 'search',
             'icon'        => 'search',
             #'label'       => 4,
             'label_color' => 'success',
@@ -126,7 +126,7 @@ return [
         'CONFIGURAÇÕES DE CONTA',
         [
             'text' => 'Perfil',
-            'url'  => 'admin/settings',
+            'url'  => 'account',
             'icon' => 'user',
 
         ],
@@ -137,7 +137,7 @@ return [
         ],*/
         [
             'text' => 'Usuários',
-            'url'  => '',
+            'url'  => 'users',
             'icon' => 'user',
           #  'can'  => 'manage-blog',
         ],

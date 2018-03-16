@@ -11,8 +11,14 @@
 |
 */
 
+$this->get('search', 'painel\busca@index')->name('busca.home');
+$this->get('account', 'painel\usuario@index')->name('perfil.home');
+$this->group(['middleware' => 'auth'], function(){
+    $this->get('users', 'painel\usuario@usuario')->name('usuarios.home');
+});
+
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('home');
 });
 
 Auth::routes();
