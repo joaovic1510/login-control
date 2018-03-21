@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+@extends('adminlte::page')
+
+<!--<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="utf-8">
@@ -8,6 +10,6 @@
   <body>
     <h1>Hello world!</h1>
     <h2>Esta eh mais uma pagina de teste</h2></br>
-    <p>esta sera a pagina de perfil</p>
+    <p>esta sera a pagina de busca</p>
   </body>
-</html>
+</html>-->

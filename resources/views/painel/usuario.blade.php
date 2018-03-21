@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+@extends('adminlte::page')
+
+<!--<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="utf-8">
@@ -10,4 +12,4 @@
     <h2>Esta eh mais uma pagina de teste</h2></br>
     <p>esta sera a pagina com a listagem dos usuarios</p>
   </body>
-</html>
+</html>-->
