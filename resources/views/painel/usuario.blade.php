@@ -1,15 +1,8 @@
 @extends('adminlte::page')
 
-<!--<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Usuários - CEAD</title>
-  </head>
-  <body>
-    <h1>Hello world!</h1>
-    <h2>Esta eh mais uma pagina de teste</h2></br>
-    <p>esta sera a pagina com a listagem dos usuarios</p>
-  </body>
-</html>-->
+@section('title', 'Controle de Login')
+
+@section('content')
+    <p>Este é o Sistema de Controle de Login dos Usuários do Centro de Educação à Distância Unimontes - CEAD</p>
+    <p>Selecione a opção desejada no menu ao lado</p>
+@stop

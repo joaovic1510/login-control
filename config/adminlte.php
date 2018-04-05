@@ -138,7 +138,7 @@ return [
         [
             'text' => 'Usuários',
             'url'  => 'users',
-            'icon' => 'user',
+            'icon' => 'users',
           #  'can'  => 'manage-blog',
         ],
         /*[
